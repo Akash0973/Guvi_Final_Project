@@ -9,7 +9,9 @@ Dataset file name: twitter_new.csv
 
 In this project, we are given with a dataset to train a model that will predict the sentiment of a comment (Positive or negative). The given dataset is already labeled.
 We first do some pre-processing using various NLP techniques such as stemming and stopword removal. Then we use embedding techniques such as word2vec to convert this to numerical features.
+
 We train the dataset on a decision tree model with cross-validation to obtain best accuracy of 0.9898505409292727.
+
 Best hyperparameters for Decision tree: {'max_depth': 40, 'max_features': 'sqrt', 'min_samples_leaf': 2, 'min_samples_split': 2}
 
 ## Course Rating Prediction
